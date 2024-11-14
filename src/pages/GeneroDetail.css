@@ -1,0 +1,28 @@
+.genres-view {
+    padding: 20px;
+  }
+  
+  .genres-header {
+    text-align: center;
+  }
+  
+  .genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .genre-item {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .genre-item:hover {
+    background-color: #e0e0e0;
+  }

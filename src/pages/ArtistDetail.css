@@ -1,0 +1,31 @@
+.artist-detail {
+    padding: 20px;
+  }
+  
+  .artist-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .artist-songs {
+    margin-top: 20px;
+  }
+  
+  .songs-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .song-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .song-item strong {
+    margin-right: 15px;
+  }
+  
+  audio {
+    margin-left: auto;
+  }

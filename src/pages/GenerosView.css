@@ -1,0 +1,47 @@
+.genres-view {
+    padding: 20px;
+  }
+  
+  .genres-header {
+    text-align: center;
+  }
+  
+  .genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .genre-item {
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .genre-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .genre-details {
+    margin-top: 30px;
+  }
+  
+  .artists-list, .albums-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .artist-item, .album-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
